@@ -1,0 +1,25 @@
+# Build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.ide
+.vs/
+
+# Publish output (don’t version compiled releases)
+**/publish/
+
+# Logs / temp
+*.log
+~$*
+*.tmp
+*.tmp.*
+
+# Rider/VS Code
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
